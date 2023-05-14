@@ -1,0 +1,270 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amazon Ember';
+}
+
+
+
+nav {
+    position: fixed;
+    height: 47px;
+    width: 100%;
+    background-color: #00050D;
+}
+
+.navbar {
+    display: flex;
+    width: 60%;
+    margin-left: 300px;
+    justify-content: space-evenly;
+    color: #BABCBE;
+}
+
+.navbar img {
+    margin-top: 15px;
+}
+
+.navbar span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container-1 {
+    height: 68vh;
+    background-size: cover;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 1%, transparent 60%), url("/images/MLP.jpg");
+}
+
+.con-1-heading {
+    position: absolute;
+    width: 650px;
+    left: 85px;
+    bottom: 400px;
+}
+
+.con-1-heading h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.con-1-heading p {
+    margin-top: 30px;
+    color: white;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.con-1-heading .btn button {
+    border: 0;
+    width: 290px;
+    font-size: 20px;
+    border-radius: 3px;
+    margin-top: 20px;
+    height: 50px;
+    background: #0F79AF;
+    color: white;
+}
+
+
+.container-2 {
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to left, rgba(0, 0, 1, 0.7) 1%, transparent 60%), url(/images/3.jpg);
+    background-size: cover;
+}
+
+
+.container-2 h1 {
+    position: absolute;
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+    left: 795px;
+    bottom: 30px;
+}
+
+.container-2 p {
+    position: absolute;
+    bottom: -45px;
+    color: white;
+    font-size: 24px;
+    left: 800px;
+}
+
+.container-2 .btn button {
+    position: absolute;
+    border: 0;
+    width: 290px;
+    font-size: 20px;
+    border-radius: 3px;
+    bottom: -120px;
+    height: 50px;
+    left: 800px;
+    background: #0F79AF;
+    color: white;
+}
+
+.container-3 {
+    display: flex;
+    height: 89vh;
+    width: 100%;
+}
+
+.container-3 .con-3-part1 {
+    height: 50vh;
+    width: 50%;
+    font-size: 45px;
+}
+
+.con-3-part1-text {
+    position: absolute;
+    left: 80px;
+    bottom: -540px;
+}
+
+.container-3 .con-3-part1 span p {
+    font-size: 21px;
+    line-height: 30px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.con-3-part2 {
+    height: 88vh;
+    margin-top: 10px;
+    display: grid;
+    padding: 0%;
+    /* Creates 3 columns */
+    grid-template-columns: repeat(3, 1fr);
+    /* Creates 4 rows */
+    grid-template-rows: repeat(4, 1fr);
+    width: 45%;
+}
+
+.con-3-part2 .grid-item img {
+    height: 145px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.con-3-part2 .grid-item:hover img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.container-4 {
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to left, rgba(0, 0, 1, 0.7) 1%, transparent 60%), url(/images/4.jpg);
+    background-size: cover;
+}
+
+
+.container-4 h1 {
+    position: absolute;
+    top: 40px;
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.container-4 p {
+    font-size: 21px;
+    line-height: 30px;
+    position: absolute;
+    top: 122px;
+    color: white;
+
+}
+
+.container-4 .btn button {
+    position: absolute;
+    top: 270px;
+    border: 0;
+    width: 290px;
+    font-size: 20px;
+    border-radius: 3px;
+    height: 50px;
+    background: #0F79AF;
+    color: white;
+}
+
+.con-4-all {
+    position: absolute;
+    left: 840px;
+    height: 20vh;
+    width: 42vw;
+    top: 1750px;
+}
+
+.container-5 {
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to left, rgba(0, 0, 1, 0.7) 1%, transparent 60%), url(/images/5.jpg);
+    background-size: cover;
+}
+
+
+.container-5 h1 {
+    top: 40px;
+    color: white;
+    font-size: 45px;
+    font-weight: 100;
+}
+
+.container-5 p {
+    font-size: 21px;
+    line-height: 30px;
+    color: white;
+    margin-top: 25px;
+}
+
+.container-5 .btn button {
+    top: 270px;
+    border: 0;
+    width: 290px;
+    margin-top: 40px;
+    font-size: 20px;
+    border-radius: 3px;
+    height: 50px;
+    background: #0F79AF;
+    color: white;
+}
+
+.con-5-all {
+    position: absolute;
+    left: 80px;
+    top: 2350px;
+    height: 20vh;
+    width: 42vw;
+}
+
+footer {
+    height: 120px;
+    background-color: #222222;
+    text-align: center;
+    width: 100%;
+}
+
+footer img {
+    margin-top: 20px;
+}
+
+footer a {
+    color: #146F86;
+    text-decoration: none;
+}
+
+footer p {
+    color: white;
+    font-size: 16px;
+    color: #908476;
+}
